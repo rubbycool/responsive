@@ -1,0 +1,81 @@
+body{
+	background: #fff;
+}
+.main{
+	margin: 10% 5%;
+	display: flex;
+	justify-content: right;
+	padding: 0 200px 0 200px;
+}
+.card1{
+	width: 25%;
+	background: orange;
+	padding: 30px 20px 50px 40px;
+	color: #fff;
+	
+}
+.card2{
+	width: 25%;
+	background: rgb(4, 95, 98);
+	padding: 30px 20px 50px 40px;
+	color: #fff;
+}
+.card3{
+	width: 25%;
+	background: rgb(1, 45, 34);
+	padding: 30px 20px 50px 40px;
+	color: #fff;
+}
+
+
+h1{
+	text-align: center;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+	font-size: 25px;
+
+}
+.more{
+	margin-bottom: 3%;
+	padding: 10px;
+	border-radius: 50px;
+	width: 70%;
+	background: transparent;
+	color: #fff;
+	border: 2px #fff solid;
+	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+.more:hover {
+  background-color: #fff;
+  color: #000;
+}
+p{
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 40px;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-bottom: 40px;
+}
+
+@media all and (max-width: 690px){
+	.main{
+		flex-wrap: wrap;
+		width: 50%;
+		padding: 20%;
+	}
+	.card1, .card2, .card3{
+		width: 300px;
+	}
+	.more{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
